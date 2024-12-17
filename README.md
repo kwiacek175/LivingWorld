@@ -22,15 +22,6 @@ LivingWorld to symulacja ekosystemu, w której różne organizmy (zwierzęta i r
 
 Główna klasa odpowiedzialna za renderowanie symulacji. Obsługuje ruch organizmów, kolizje, reprodukcję roślin oraz aktualizację stanu symulacji.
 
-Metody:
-- `nextStep()` - wykonuje krok symulacji.
-- `charactersMove()` - porusza zwierzęta na planszy.
-- `plantsReproduction()` - dodaje nowe rośliny.
-- `ifCollided()` - obsługuje kolizje między organizmami.
-- `borderCheck()` - sprawdza granice mapy.
-- `groupsChecker()` - aktualizuje położenie grup zwierząt.
-- `pregnantCheck()` - dodaje potomstwo zwierząt do symulacji.
-
 #### `OrganismsAbstract`
 
 Abstrakcyjne klasy i interfejsy dla organizmów:
@@ -58,11 +49,6 @@ Rośliny:
 - `Flower.java`
 - `SosnowskiBorsch.java`
 - `LongGrass.java`
-
-#### Inne klasy pomocnicze
-
-- `Group.java` - reprezentuje grupy zwierząt.
-- `PlaceHolder.java` - klasa pomocnicza (do uzupełnienia).
 
 ## Wymagania
 
