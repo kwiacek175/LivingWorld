@@ -18,9 +18,20 @@ LivingWorld to symulacja ekosystemu, w której różne organizmy (zwierzęta i r
 
 ### Główne klasy i ich funkcjonalności:
 
-#### `SimulationDisplay.java`
+#### `LivingSimulation`
 
-Główna klasa odpowiedzialna za renderowanie symulacji. Obsługuje ruch organizmów, kolizje, reprodukcję roślin oraz aktualizację stanu symulacji.
+- **`ClosePanel.java`** - Panel, który pozwala na zamknięcie aplikacji.
+- **`CloseWindow.java`** - Okno zamykające aplikację, które pojawia się po zakończeniu symulacji.
+- **`MenuPanel.java`** - Panel menu głównego, zawierający opcje dla użytkownika.
+- **`MenuPanelListener.java`** - Listener dla menu, odpowiada za reagowanie na akcje użytkownika w menu.
+- **`OrganismSetListener.java`** - Listener odpowiedzialny za akcje związane z zestawem organizmów.
+- **`OrganismSlider.java`** - Kontrolka suwaka do dostosowywania liczby organizmów w symulacji.
+- **`SettingsFrame.java`** - Okno ustawień aplikacji.
+- **`SettingsListener.java`** - Listener odpowiedzialny za reagowanie na zmiany ustawień.
+- **`SettingsPanel.java`** - Panel, w którym użytkownik może zmieniać ustawienia symulacji.
+- **`SimulationDisplay.java`** - Główna klasa odpowiedzialna za renderowanie symulacji.
+- **`SimulationFrame.java`** - Ramka, która otacza symulację, zawierająca elementy interfejsu użytkownika.
+- **`SimulatorApp.java`** - Główna aplikacja uruchamiająca symulację.
 
 #### `OrganismsAbstract`
 
